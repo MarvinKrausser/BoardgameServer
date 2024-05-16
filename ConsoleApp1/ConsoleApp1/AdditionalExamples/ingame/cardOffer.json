@@ -1,0 +1,14 @@
+{
+    "message": "CARD_OFFER",
+    "data": {
+        "cards": [
+            "MOVE_1",
+            "MOVE_2",
+            "MOVE_3",
+            "LEMBAS",
+            "MOVE_2",
+            "MOVE_1",
+            "MOVE_1"
+        ]
+    }
+}

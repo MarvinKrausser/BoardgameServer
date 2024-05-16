@@ -1,0 +1,6 @@
+{
+    "message": "INVALID_MESSAGE",
+    "data": {
+        "invalidMessage": "{\r\n\t\"message\": \"TROLLOLOL\",\r\n\t\"data\": {\r\n\t\t\"role\": \"PLAYER\",\r\n\t\t\"name\": \"Spieler1\"\r\n\t}\r\n}"
+    }
+}

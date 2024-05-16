@@ -1,0 +1,7 @@
+{
+    "message": "PAUSED",
+    "data": {
+        "playerName": "Player1",
+        "paused": true
+    }
+}

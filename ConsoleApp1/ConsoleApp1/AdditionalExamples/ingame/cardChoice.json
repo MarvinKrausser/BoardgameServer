@@ -1,0 +1,12 @@
+{
+    "message": "CARD_CHOICE",
+    "data": {
+        "cards": [
+            "MOVE_1",
+            "LEMBAS",
+            "EMPTY",
+            "MOVE_2",
+            "MOVE_3"
+        ]
+    }
+}

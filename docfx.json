@@ -1,0 +1,58 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj"
+          ]
+        }
+      ],
+      "dest": "Documentation/api",
+      "filter": "filterConfig.yml",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "allowCompilationErrors": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "Documentation/api/**.yml",
+          "Documentation/api/index.md",
+          "index.md", "**.md", "**/*.md"
+        ]
+      },
+      {
+        "files": [
+          "Documentation/articles/**.md",
+          "Documentation/articles/**/toc.yml",
+          "Documentation/toc.yml",
+          "Documentation/*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "Documentation/images/**"
+        ]
+      }
+    ],
+    "output": "Documentation/_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "modern"
+    ],
+    "postProcessors": [],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}

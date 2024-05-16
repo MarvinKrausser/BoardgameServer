@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "RECONNECT",
+  "type" : "object",
+  "required" : [
+    "message",
+    "data"
+  ],
+  "properties" : {
+    "message" : {
+      "type" : "string",
+      "description": "Reconnect",
+      "const" : "RECONNECT"
+    },
+    "data" : {
+      "type" : "object",
+      "required" : ["name","reconnectToken"],
+      "properties" : {
+        "name" : {
+          "type" : "string",
+          "maxLength": 20
+        },
+        "reconnectToken" : {
+          "type" : "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

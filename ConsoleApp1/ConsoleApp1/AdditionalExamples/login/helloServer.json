@@ -1,0 +1,7 @@
+{
+	"message": "HELLO_SERVER",
+	"data": {
+		"role": "PLAYER",
+		"name": "Spieler1"
+	}
+}

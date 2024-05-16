@@ -1,0 +1,17 @@
+﻿COPY . ./
+RUN dotnet restore
+RUN dotnet publish -c Release -o out
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
+WORKDIR /App
+COPY --from=build-env /App/out .
+
+
+
+# Environment variables
+ENV PORT=3018
+ENV BOAD_CONFIG=/var/lib/app/config/board.json
+ENV GAME_CONFIG=/var/lib/app/config/game.json
+
+# Entry point
+EXPOSE 3018
+ENTRYPOINT ["dotnet", "DotNet.Docker.dll"]

@@ -1,0 +1,7 @@
+{
+	"message": "RECONNECT",
+	"data": {
+		"name": "Spieler1",
+		"reconnectToken": "bf12934f-4364-4526-bf99-220c04f74783"
+	}
+}

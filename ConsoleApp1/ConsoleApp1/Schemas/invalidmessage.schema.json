@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Schema for INVALID_MESSAGE message",
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "string",
+            "const": "INVALID_MESSAGE"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "invalidMessage": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "invalidMessage"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "required": [
+        "message",
+        "data"
+    ],
+    "additionalProperties": false
+}

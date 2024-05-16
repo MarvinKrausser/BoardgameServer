@@ -1,0 +1,596 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GameManager
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GameManager
+ ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ConsoleApp1.Gameplay.GameManager">
+
+
+
+  <h1 id="ConsoleApp1_Gameplay_GameManager" data-uid="ConsoleApp1.Gameplay.GameManager" class="text-break">
+    Class GameManager
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ConsoleApp1.html">ConsoleApp1</a>.<a class="xref" href="ConsoleApp1.Gameplay.html">Gameplay</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ConsoleApp1.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GameManager</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GameManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager__ctor_" data-uid="ConsoleApp1.Gameplay.GameManager.#ctor*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager__ctor_ConsoleApp1_DataContainers_BoardConfig_ConsoleApp1_DataContainers_GameConfig_" data-uid="ConsoleApp1.Gameplay.GameManager.#ctor(ConsoleApp1.DataContainers.BoardConfig,ConsoleApp1.DataContainers.GameConfig)">
+  GameManager(BoardConfig, GameConfig)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameManager(BoardConfig boardconfig, GameConfig gameconfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>boardconfig</code> <a class="xref" href="ConsoleApp1.DataContainers.BoardConfig.html">BoardConfig</a></dt>
+    <dd></dd>
+    <dt><code>gameconfig</code> <a class="xref" href="ConsoleApp1.DataContainers.GameConfig.html">GameConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_gameboard" data-uid="ConsoleApp1.Gameplay.GameManager.gameboard">
+  gameboard
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gameboard gameboard</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ConsoleApp1.Gameplay.Gameboard.html">Gameboard</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_eye_" data-uid="ConsoleApp1.Gameplay.GameManager.eye*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_eye" data-uid="ConsoleApp1.Gameplay.GameManager.eye">
+  eye
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Eye eye { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ConsoleApp1.Gameplay.Tiles.Eye.html">Eye</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_players_" data-uid="ConsoleApp1.Gameplay.GameManager.players*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_players" data-uid="ConsoleApp1.Gameplay.GameManager.players">
+  players
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; players { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_viewers_" data-uid="ConsoleApp1.Gameplay.GameManager.viewers*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_viewers" data-uid="ConsoleApp1.Gameplay.GameManager.viewers">
+  viewers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; viewers { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_FindPath_" data-uid="ConsoleApp1.Gameplay.GameManager.FindPath*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_FindPath_ConsoleApp1_Gameplay_Player_ConsoleApp1_Gameplay_Tiles_Tile_" data-uid="ConsoleApp1.Gameplay.GameManager.FindPath(ConsoleApp1.Gameplay.Player,ConsoleApp1.Gameplay.Tiles.Tile)">
+  FindPath(Player, Tile)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>A* Pathfinding algorithmus findet den kürzesten Weg von Spieler zum Auge und gibt diesen als Liste zurück.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Tile&gt; FindPath(Player player, Tile target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="ConsoleApp1.Gameplay.Tiles.Tile.html">Tile</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Tiles.Tile.html">Tile</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_findPushingNeighbours_" data-uid="ConsoleApp1.Gameplay.GameManager.findPushingNeighbours*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_findPushingNeighbours_ConsoleApp1_Gameplay_Player_ConsoleApp1_DataContainers_directionEnum_" data-uid="ConsoleApp1.Gameplay.GameManager.findPushingNeighbours(ConsoleApp1.Gameplay.Player,ConsoleApp1.DataContainers.directionEnum)">
+  findPushingNeighbours(Player, directionEnum)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; findPushingNeighbours(Player player, directionEnum direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="ConsoleApp1.DataContainers.directionEnum.html">directionEnum</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_getTurnOrder_" data-uid="ConsoleApp1.Gameplay.GameManager.getTurnOrder*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_getTurnOrder" data-uid="ConsoleApp1.Gameplay.GameManager.getTurnOrder">
+  getTurnOrder()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Findet für jeden Spieler den kürzesten Pfad zum Auge und sortiert zuerst nach Uhrzeigersinn und dann nach der Pfadlänge
+Methode gib sowohl eine sortierte Liste zurück, setzt aber gleichzeitig die &quot;players&quot; Liste</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Player&gt; getTurnOrder()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_moveCharakter_" data-uid="ConsoleApp1.Gameplay.GameManager.moveCharakter*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_moveCharakter_ConsoleApp1_Gameplay_Player_System_Collections_Generic_List_ConsoleApp1_DataContainers_cardEnum__" data-uid="ConsoleApp1.Gameplay.GameManager.moveCharakter(ConsoleApp1.Gameplay.Player,System.Collections.Generic.List{ConsoleApp1.DataContainers.cardEnum})">
+  moveCharakter(Player, List&lt;cardEnum&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Alle standard bewegungen der Karten werden über diese Methode ausgefürt. Es wird ein Spieler, sowie dessen Bewegungen die
+ausgeführt werden sollen übergeben.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void moveCharakter(Player player, List&lt;cardEnum&gt; moves)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="ConsoleApp1.Gameplay.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>moves</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.DataContainers.cardEnum.html">cardEnum</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_moveCharaktersOnRiver_" data-uid="ConsoleApp1.Gameplay.GameManager.moveCharaktersOnRiver*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_moveCharaktersOnRiver" data-uid="ConsoleApp1.Gameplay.GameManager.moveCharaktersOnRiver">
+  moveCharaktersOnRiver()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>schaut für alle Spieler ob sie auf einem Fluss Feld stehen, wenn ja werden alle 2 tiles weiter verschobe
+SONDERFALL: Ende des flusses wird auf die Zugreihenfolge geachtet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void moveCharaktersOnRiver()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_respawnAllDeadCharakters_" data-uid="ConsoleApp1.Gameplay.GameManager.respawnAllDeadCharakters*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_respawnAllDeadCharakters" data-uid="ConsoleApp1.Gameplay.GameManager.respawnAllDeadCharakters">
+  respawnAllDeadCharakters()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>this method should be called, when a character needs to be revived
+//TODO: Diese Methode testen. Außerdem: geht das vlt effizienter?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void respawnAllDeadCharakters()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_shoot_" data-uid="ConsoleApp1.Gameplay.GameManager.shoot*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_shoot" data-uid="ConsoleApp1.Gameplay.GameManager.shoot">
+  shoot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lässt alle Spieler schießen.
+Überprüft auf Richtung und Hindernisse. Jeder Spieler kann nur einmal schießen und es wird nur ein Ziel getroffen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void shoot()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_GameManager_startGame_" data-uid="ConsoleApp1.Gameplay.GameManager.startGame*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_GameManager_startGame_System_Int32_" data-uid="ConsoleApp1.Gameplay.GameManager.startGame(System.Int32)">
+  startGame(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void startGame(int port)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>port</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

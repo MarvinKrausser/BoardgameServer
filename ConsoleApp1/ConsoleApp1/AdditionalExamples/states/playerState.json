@@ -1,0 +1,16 @@
+{
+    "playerName": "Player1",
+    "currentPosition": [1, 2],
+    "spawnPosition": [1, 2],
+    "direction": "NORTH",
+    "character": "FRODO",
+    "lives": 3,
+    "lembas": 5,
+    "suspended": 0,
+    "reachedCheckpoints": 0,
+    "playedCards": [
+        "MOVE_1",
+        "MOVE_2"
+    ],
+    "turnOrder": 2
+}

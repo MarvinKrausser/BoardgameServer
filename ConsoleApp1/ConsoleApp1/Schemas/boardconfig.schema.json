@@ -1,0 +1,136 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "boardconfig schema",
+    "type": "object",
+    "required": ["name", "height", "width", "startFields", "checkPoints", "eye", "holes", "riverFields", "walls", "lembasFields", "eagleFields"],
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1
+        },
+        "height": {
+            "type": "integer",
+            "minimum": 2
+        },
+        "width": {
+            "type": "integer",
+            "minimum": 2
+        },
+        "startFields": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 6,
+            "items": {
+                "required": ["position","direction"],
+                "properties": {
+                    "position": {
+                        "type": "array",
+                        "minItems": 2,
+                        "maxItems": 2,
+                        "items": {"type": "integer"}
+                    },
+                    "direction": {
+                        "type": "string",
+                        "enum": ["NORTH","SOUTH","WEST","EAST"]
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "checkPoints": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {"type": "integer"}
+            }
+        },
+        "eye": {
+            "required": ["position","direction"],
+            "properties": {
+                "position": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": {"type": "integer"}
+                },
+                "direction": {
+                    "type": "string",
+                    "enum": ["NORTH","SOUTH","WEST","EAST"]
+                }
+            },
+            "additionalProperties": false
+        },
+        "holes": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {"type": "integer"}
+            }
+        
+        },
+        "riverFields": {
+            "type":"array",
+            "items": {
+                "required": ["position","direction"],
+                "properties": {
+                    "position": {
+                        "type": "array",
+                        "minItems": 2,
+                        "maxItems": 2,
+                        "items": {"type": "integer"}
+                    },
+                    "direction": {
+                        "type": "string",
+                        "enum": ["NORTH","SOUTH","WEST","EAST"]
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "walls": {
+            "type":"array",
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": {"type": "integer"}
+                }
+            }
+        },
+        "lembasFields": {
+            "type":"array",
+            "items": {
+                "required": ["position","amount"],
+                "properties": {
+                    "position": {
+                        "type": "array",
+                        "minItems": 2,
+                        "maxItems": 2,
+                        "items": {"type": "integer"}
+                    },
+                    "amount": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+		"eagleFields": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {"type": "integer"}
+            }
+        }
+    },
+    "additionalProperties": false
+}

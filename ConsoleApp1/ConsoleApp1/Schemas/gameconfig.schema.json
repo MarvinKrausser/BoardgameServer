@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "boardconfig schema",
+    "type": "object",
+    "required": ["startLembas", "shotLembas", "cardSelectionTimeout", "characterChoiceTimeout", "riverMoveCount", "serverIngameDelay", "reviveRounds", "maxRounds"],
+    "properties": {
+        "startLembas": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "shotLembas": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "cardSelectionTimeout": {
+            "type": "integer",
+             "minimum": 0
+        },
+        "characterChoiceTimeout": {
+          	"minimum": 0,
+            "type": "integer"
+        },
+        "riverMoveCount": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "serverIngameDelay": {
+             "type": "integer",
+             "minimum": 0
+        },
+        "reviveRounds": {
+            "type": "integer",
+             "minimum": -1
+        },
+        "maxRounds": {
+            "type": "integer",
+             "minimum": 0
+        }
+    },
+    "additionalProperties": false
+}

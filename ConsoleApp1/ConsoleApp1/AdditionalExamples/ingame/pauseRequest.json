@@ -1,0 +1,6 @@
+{
+    "message": "PAUSE_REQUEST",
+    "data": {
+        "pause": true
+    }
+}

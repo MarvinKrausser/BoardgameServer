@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CHARACTER_CHOICE Schema",
+    "type": "object",
+    "required": [
+        "message",
+        "data"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "message": {
+            "title": "The message Schema",
+            "type": "string",
+            "const": "CHARACTER_CHOICE"
+        },
+        "data": {
+            "title": "The data Schema",
+            "type": "object",
+            "required": [
+                "characterChoice"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "characterChoice": {
+                    "title": "The characterChoice Schema",
+                    "type": "string",
+                    "enum": [
+                        "FRODO",
+                        "SAM",
+                        "LEGOLAS",
+                        "GIMLI",
+                        "GANDALF",
+                        "ARAGORN",
+                        "GOLLUM",
+                        "GALADRIEL",
+                        "BOROMIR",
+                        "BAUMBART",
+                        "MERRY",
+                        "PIPPIN",
+                        "ARWEN"
+                    ]
+                }
+            }
+        }
+    }
+}

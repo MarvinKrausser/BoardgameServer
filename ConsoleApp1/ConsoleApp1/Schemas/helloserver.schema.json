@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Schema for HELLO_SERVER message",
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "string",
+            "const": "HELLO_SERVER"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+				"role": {
+                    "type": "string",
+                    "enum" : [
+						"PLAYER",
+						"SPECTATOR",
+						"AI"
+					]
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "role",
+				"name"
+            ]
+        }
+    },
+    "required": [
+        "message",
+        "data"
+    ],
+   "additionalProperties": false
+}

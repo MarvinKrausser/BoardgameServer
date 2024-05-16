@@ -1,0 +1,1218 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/yanni/RiderProjects/team-23/Game",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation/_site/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/_site/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.CharacterChoiceEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.CharacterChoiceEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ClientBannedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ClientBannedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ClientConnectedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ClientConnectedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ClientData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ClientData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ClientDisconnected2EventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ClientDisconnected2EventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ClientDisconnectedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ClientDisconnectedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ClientManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ClientManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.Eye.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.Eye.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.RiverField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.RiverField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.StartField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.StartField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.BoardState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardChoice.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardChoice.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardChoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardChoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardEvent.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardEvent.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardOffer.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardOffer.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardOffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CardOffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterChoice.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterChoice.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterChoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterChoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterOffer.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterOffer.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterOffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.CharacterOffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.Error.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.Error.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.Error.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameEnd.Data.Additional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameEnd.Data.Additional.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameEnd.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameEnd.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameStart.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameStart.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameState.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameState.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GameState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GoodByeServer.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GoodByeServer.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.GoodByeServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.GoodByeServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloClient.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloClient.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloServer.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloServer.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.HelloServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.InvalidMessage.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.InvalidMessage.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.InvalidMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.InvalidMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.LembasField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.LembasField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.ParticipansInfo.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.ParticipansInfo.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.ParticipansInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.ParticipansInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.PauseRequest.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.PauseRequest.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.PauseRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.PauseRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.Paused.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.Paused.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.Paused.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.Paused.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.PlayerReady.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.PlayerReady.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.PlayerReady.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.PlayerReady.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.PlayerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.PlayerState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.Reconnect.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.Reconnect.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.Reconnect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.Reconnect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.RiverEvent.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.RiverEvent.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.RiverEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.RiverEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.RoundStart.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.RoundStart.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.RoundStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.RoundStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.ShotEvent.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.ShotEvent.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.ShotEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.ShotEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.cardEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.cardEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.characterEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.characterEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.directionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.directionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.messageEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.messageEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.roleEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.roleEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.DataContainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.DataContainers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Echo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Echo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Enums.CharakterMoves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Enums.CharakterMoves.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Enums.TileTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Enums.TileTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.GameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Gameboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Gameboard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.CheckPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.CheckPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Eye.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Eye.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Grass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Grass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Hole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Hole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.LembasFieldTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.LembasFieldTile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.RiverField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.RiverField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.StartField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.StartField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Tile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.Tile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Tiles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.Cards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.Cards.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.Charakter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.Charakter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.PausableTimeout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.PausableTimeout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.UserLevelSemaphore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.UserLevelSemaphore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.Utility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Gameplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Gameplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.NewClientEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.NewClientEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.NewMessageEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.NewMessageEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.PauseEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.PauseEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.ReconnectEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.ReconnectEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Server.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTest.ClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTest.ClientTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestBanClient.ClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestBanClient.ClientTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestBanClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestBanClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestDisconnectByClient.ClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestDisconnectByClient.ClientTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestDisconnectByClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestDisconnectByClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestInvalidMEssages.ClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestInvalidMEssages.ClientTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestInvalidMEssages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestInvalidMEssages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestManual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientManagerTestManual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientTestClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ClientTestClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ServerTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ServerTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ServerTestManual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.ServerTestManual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.SetupTrace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.SetupTrace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.ConnectionTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.GameManagerTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.GameManagerTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.CardsTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.CardsTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.GameManagerTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.GameManagerTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.GameboardTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.GameboardTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.GameplayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Documentation/api/ConsoleApp1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/ConsoleApp1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/api/toc.html"
+        },
+        ".json": {
+          "relative_path": "Documentation/api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation/articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "Documentation/articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "Documentation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "Documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Documentation/toc.html"
+        },
+        ".json": {
+          "relative_path": "Documentation/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

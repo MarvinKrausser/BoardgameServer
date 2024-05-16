@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$comment": "Broadcasted on participants (re)connect.",
+    "title": "PARTICIPANTS_INFO",
+    "description": "Information about currently connected participants.",
+    "type": "object",
+    "properties": {
+        "message": {
+            "description": "Message type.",
+            "type": "string",
+            "const": "PARTICIPANTS_INFO"
+        },
+        "data": {
+            "description": "Actual payload.",
+            "type": "object",
+            "properties": {
+                "players": {
+                    "$ref": "#/$defs/stringSet"
+                },
+                "spectators": {
+                    "$ref": "#/$defs/stringSet"
+                },
+                "ais": {
+                    "$ref": "#/$defs/stringSet"
+                },
+                "readyPlayers": {
+                    "$ref": "#/$defs/stringSet"
+                }
+            },
+            "required": [
+                "players",
+                "spectators",
+                "ais",
+                "readyPlayers"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "required": [
+        "message",
+        "data"
+    ],
+    "$defs": {
+        "stringSet":{
+            "description": "A set of strings.",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+				"maxLength": 20
+            }
+        }
+    },
+    "additionalProperties": false
+}

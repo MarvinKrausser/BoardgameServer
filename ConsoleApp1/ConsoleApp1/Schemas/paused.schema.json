@@ -1,0 +1,33 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"title": "PAUSED",
+	"type": "object",
+	"required": [
+		"message",
+		"data"
+	],
+	"properties": {
+		"message": {
+			"type": "string",
+			"const": "PAUSED"
+		},
+		"data": {
+			"type": "object",
+			"required": [
+				"paused",
+				"playerName"
+			],
+			"properties": {
+				"paused": {
+					"type": "boolean"
+				},
+				"playerName" : {
+					"type": "string",
+					"maxLength": 20
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"additionalProperties": false
+}

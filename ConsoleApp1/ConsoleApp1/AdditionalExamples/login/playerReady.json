@@ -1,0 +1,6 @@
+{
+	"message": "PLAYER_READY",
+	"data": {
+		"ready": true
+	}
+}

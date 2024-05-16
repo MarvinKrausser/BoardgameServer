@@ -1,0 +1,16 @@
+version: "3"
+services:
+ server:
+  image: mcr.microsoft.com/dotnet/sdk:7.0
+  volumes:
+   - ./ConsoleApp1/ConsoleApp1:/ConsoleApp1
+   - ./ConsoleApp1/ConsoleApp1.sln:/ConsoleApp1.sln
+   - ./Config:/config
+  environment:
+   PORT: 3018
+   BOARD_CONFIG: /config/board.json
+   GAME_CONFIG: /config/game.json
+  ports:
+   - 3018:3018
+  command: dotnet run --project ConsoleApp1/ConsoleApp1.csproj
+  

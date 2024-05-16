@@ -1,0 +1,7 @@
+{
+	"message": "ERROR",
+	"data": {
+		"errorCode": 04,
+		"reason": "Game has already started."
+	}
+}

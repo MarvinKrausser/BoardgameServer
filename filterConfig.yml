@@ -1,0 +1,7 @@
+apiRules:
+- exclude:
+    uidRegex: ^ConsoleApp1
+    type: Type
+- exclude:
+    uidRegex: ^ConsoleApp1\.Test
+    type: Type

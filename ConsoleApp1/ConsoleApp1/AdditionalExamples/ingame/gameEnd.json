@@ -1,0 +1,100 @@
+{
+    "message": "GAME_END",
+    "data": {
+        "playerStates": [
+            {
+                "playerName": "Player1",
+                "currentPosition": [
+                    1,
+                    2
+                ],
+                "spawnPosition": [
+                    1,
+                    2
+                ],
+                "direction": "NORTH",
+                "character": "FRODO",
+                "lives": 3,
+                "lembasCount": 5,
+                "suspended": 0,
+                "reachedCheckpoints": 0,
+                "playedCards": [
+                ],
+                "turnOrder": 1
+            },
+            {
+                "playerName": "Player2",
+                "currentPosition": [
+                    2,
+                    2
+                ],
+                "spawnPosition": [
+                    2,
+                    2
+                ],
+                "direction": "NORTH",
+                "character": "LEGOLAS",
+                "lives": 3,
+                "lembasCount": 5,
+                "suspended": 0,
+                "reachedCheckpoints": 0,
+                "playedCards": [
+                ],
+                "turnOrder": 2
+            },
+            {
+                "playerName": "Player3",
+                "currentPosition": [
+                    3,
+                    2
+                ],
+                "spawnPosition": [
+                    3,
+                    2
+                ],
+                "direction": "NORTH",
+                "character": "GIMLI",
+                "lives": 3,
+                "lembasCount": 5,
+                "suspended": 0,
+                "reachedCheckpoints": 0,
+                "playedCards": [
+                ],
+                "turnOrder": 3
+            },
+            {
+                "playerName": "Player4",
+                "currentPosition": [
+                    4,
+                    2
+                ],
+                "spawnPosition": [
+                    4,
+                    2
+                ],
+                "direction": "NORTH",
+                "character": "GOLLUM",
+                "lives": 3,
+                "lembasCount": 5,
+                "suspended": 0,
+                "reachedCheckpoints": 0,
+                "playedCards": [
+                ],
+                "turnOrder": 4
+            }
+        ],
+        "winner": "Player1",
+        "additional": [
+            {
+                "name": "Amount Moves - Player1",
+                "value": "41",
+                "description": "The amount of moves Player1 has made."
+            },
+            {
+                "name": "Amount Moves - Player2",
+                "value": "69",
+                "description": "The amount of moves Player2 has made."
+            }
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "message": "ROUND_START",
+    "data": {
+        "playerStates": [
+			{
+				"playerName": "Player1",
+				"currentPosition": [
+					1,
+					2
+				],
+				"spawnPosition": [
+					1,
+					2
+				],
+				"direction": "NORTH",
+				"character": "FRODO",
+				"lives": 3,
+				"lembasCount": 5,
+				"suspended": 0,
+				"reachedCheckpoints": 0,
+				"playedCards": [
+				],
+				"turnOrder": 1
+			},
+			{
+				"playerName": "Player2",
+				"currentPosition": [
+					2,
+					2
+				],
+				"spawnPosition": [
+					2,
+					2
+				],
+				"direction": "NORTH",
+				"character": "LEGOLAS",
+				"lives": 3,
+				"lembasCount": 5,
+				"suspended": 0,
+				"reachedCheckpoints": 0,
+				"playedCards": [
+				],
+				"turnOrder": 2
+			},
+			{
+				"playerName": "Player3",
+				"currentPosition": [
+					3,
+					2
+				],
+				"spawnPosition": [
+					3,
+					2
+				],
+				"direction": "NORTH",
+				"character": "GIMLI",
+				"lives": 3,
+				"lembasCount": 5,
+				"suspended": 0,
+				"reachedCheckpoints": 0,
+				"playedCards": [
+				],
+				"turnOrder": 3
+			},
+			{
+				"playerName": "Player4",
+				"currentPosition": [
+					4,
+					2
+				],
+				"spawnPosition": [
+					4,
+					2
+				],
+				"direction": "NORTH",
+				"character": "GOLLUM",
+				"lives": 3,
+				"lembasCount": 5,
+				"suspended": 0,
+				"reachedCheckpoints": 0,
+				"playedCards": [
+				],
+				"turnOrder": 4
+			}
+		]
+    }
+}

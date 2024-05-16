@@ -1,0 +1,58 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#", 
+    "$id": "https://example.com/object1675777292.json", 
+    "title": "Root", 
+    "type": "object",
+    "required": [
+        "message",
+        "data"
+    ],
+    "properties": {
+        "message": {
+            "$id": "#root/message", 
+            "title": "MessageType", 
+            "type": "string",
+            "const": "CARD_OFFER"
+        },
+        "data": {
+            "$id": "#root/data", 
+            "title": "Data", 
+            "type": "object",
+            "required": [
+                "cards"
+            ],
+            "properties": {
+                "cards": {
+                    "$id": "#root/data/cards", 
+                    "title": "Cards", 
+                    "type": "array",
+                    "items":{
+                        "$id": "#root/data/cards/items", 
+                        "title": "Card", 
+                        "type": "string",
+                        "enum": [
+                            "MOVE_1",
+                            "MOVE_2",
+                            "MOVE_3",
+                            "MOVE_BACK",
+                            "U_TURN",
+                            "RIGHT_TURN",
+                            "LEFT_TURN",
+                            "AGAIN",
+                            "LEMBAS",
+                            "EMPTY"
+                        ]
+                    },
+					"minItems": 7,
+					"maxItems": 9
+                }
+            },
+            "required": [
+                "cards"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}

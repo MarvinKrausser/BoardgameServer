@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Gameboard
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Gameboard
+ ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ConsoleApp1.Gameplay.Gameboard">
+
+
+
+  <h1 id="ConsoleApp1_Gameplay_Gameboard" data-uid="ConsoleApp1.Gameplay.Gameboard" class="text-break">
+    Class Gameboard
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ConsoleApp1.html">ConsoleApp1</a>.<a class="xref" href="ConsoleApp1.Gameplay.html">Gameplay</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ConsoleApp1.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Gameboard</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Gameboard</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard__ctor_" data-uid="ConsoleApp1.Gameplay.Gameboard.#ctor*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard__ctor_ConsoleApp1_DataContainers_BoardConfig_" data-uid="ConsoleApp1.Gameplay.Gameboard.#ctor(ConsoleApp1.DataContainers.BoardConfig)">
+  Gameboard(BoardConfig)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gameboard(BoardConfig boardConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>boardConfig</code> <a class="xref" href="ConsoleApp1.DataContainers.BoardConfig.html">BoardConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_eye" data-uid="ConsoleApp1.Gameplay.Gameboard.eye">
+  eye
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Eye eye</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ConsoleApp1.Gameplay.Tiles.Eye.html">Eye</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_startFields" data-uid="ConsoleApp1.Gameplay.Gameboard.startFields">
+  startFields
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;StartField&gt; startFields</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Tiles.StartField.html">StartField</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_BoardState_" data-uid="ConsoleApp1.Gameplay.Gameboard.BoardState*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_BoardState" data-uid="ConsoleApp1.Gameplay.Gameboard.BoardState">
+  BoardState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoardState BoardState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ConsoleApp1.DataContainers.BoardState.html">BoardState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_CheckPoints_" data-uid="ConsoleApp1.Gameplay.Gameboard.CheckPoints*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_CheckPoints" data-uid="ConsoleApp1.Gameplay.Gameboard.CheckPoints">
+  CheckPoints
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CheckPoint&gt; CheckPoints { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Tiles.CheckPoint.html">CheckPoint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_Height_" data-uid="ConsoleApp1.Gameplay.Gameboard.Height*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_Height" data-uid="ConsoleApp1.Gameplay.Gameboard.Height">
+  Height
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_MaxSpieler_" data-uid="ConsoleApp1.Gameplay.Gameboard.MaxSpieler*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_MaxSpieler" data-uid="ConsoleApp1.Gameplay.Gameboard.MaxSpieler">
+  MaxSpieler
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int MaxSpieler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_Width_" data-uid="ConsoleApp1.Gameplay.Gameboard.Width*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_Width" data-uid="ConsoleApp1.Gameplay.Gameboard.Width">
+  Width
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_tiles_" data-uid="ConsoleApp1.Gameplay.Gameboard.tiles*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_tiles" data-uid="ConsoleApp1.Gameplay.Gameboard.tiles">
+  tiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tile[,] tiles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ConsoleApp1.Gameplay.Tiles.Tile.html">Tile</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_GetNeighbors_" data-uid="ConsoleApp1.Gameplay.Gameboard.GetNeighbors*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_GetNeighbors_ConsoleApp1_Gameplay_Tiles_Tile_" data-uid="ConsoleApp1.Gameplay.Gameboard.GetNeighbors(ConsoleApp1.Gameplay.Tiles.Tile)">
+  GetNeighbors(Tile)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Tile&gt; GetNeighbors(Tile tile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tile</code> <a class="xref" href="ConsoleApp1.Gameplay.Tiles.Tile.html">Tile</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ConsoleApp1.Gameplay.Tiles.Tile.html">Tile</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_PrintGameboard_" data-uid="ConsoleApp1.Gameplay.Gameboard.PrintGameboard*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_PrintGameboard_ConsoleApp1_Gameplay_Tiles_Tile_0__0___" data-uid="ConsoleApp1.Gameplay.Gameboard.PrintGameboard(ConsoleApp1.Gameplay.Tiles.Tile[0:,0:])">
+  PrintGameboard(Tile[,])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrintGameboard(Tile[,] tiles)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tiles</code> <a class="xref" href="ConsoleApp1.Gameplay.Tiles.Tile.html">Tile</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_getStartKoordinate_" data-uid="ConsoleApp1.Gameplay.Gameboard.getStartKoordinate*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_getStartKoordinate" data-uid="ConsoleApp1.Gameplay.Gameboard.getStartKoordinate">
+  getStartKoordinate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StartField getStartKoordinate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ConsoleApp1.Gameplay.Tiles.StartField.html">StartField</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ConsoleApp1_Gameplay_Gameboard_isWalkable_" data-uid="ConsoleApp1.Gameplay.Gameboard.isWalkable*"></a>
+
+  <h3 id="ConsoleApp1_Gameplay_Gameboard_isWalkable_System_Int32_System_Int32_ConsoleApp1_DataContainers_directionEnum_" data-uid="ConsoleApp1.Gameplay.Gameboard.isWalkable(System.Int32,System.Int32,ConsoleApp1.DataContainers.directionEnum)">
+  isWalkable(int, int, directionEnum)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isWalkable(int x, int y, directionEnum direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="ConsoleApp1.DataContainers.directionEnum.html">directionEnum</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "lembasFields": [
+        {
+            "position": [0, 9],
+            "amount": 6
+        },
+        {
+            "position": [9, 0],
+            "amount": 6
+        }
+    ]
+}

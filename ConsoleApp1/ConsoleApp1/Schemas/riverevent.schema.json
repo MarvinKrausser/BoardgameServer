@@ -1,0 +1,203 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "RIVER_EVENT",
+	"type": "object",
+	"properties": {
+		"message": {
+			"type": "string",
+			"const": "RIVER_EVENT"
+		},
+		"data": {
+			"type": "object",
+			"properties": {
+				"playerName": {
+					"type": "string",
+					"maxLength": 20
+				},
+				"playerStates": {
+					"type": "array",
+					"items": {
+						"type": "array",
+						"items": {
+							"$ref": "#/definitions/playerState"
+						},
+						"maxItems": 6
+					},
+					"minItems": 1
+				},
+				"boardStates": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/boardState"
+					},
+					"minItems": 1
+				}
+			},
+			"required": [
+				"playerName",
+				"playerStates",
+				"boardStates"
+			],
+			"additionalProperties": false
+		}
+	},
+	"required": [
+		"message",
+		"data"
+	],
+	"additionalProperties": false,
+	"definitions": {
+		"position": {
+			"type": "array",
+			"items": {
+				"type": "number",
+				"minimum": 0
+			},
+			"minItems": 2,
+			"maxItems": 2
+		},
+		"playerState": {
+			"type": "object",
+			"properties": {
+				"playerName": {
+					"type": "string",
+					"maxLength": 20
+				},
+				"currentPosition": {
+					"$ref": "#/definitions/COORDINATE"
+				},
+				"spawnPosition": {
+					"$ref": "#/definitions/COORDINATE"
+				},
+				"direction": {
+					"$ref": "#/definitions/DIRECTION"
+				},
+				"character": {
+					"$ref": "#/definitions/CHARACTER"
+				},
+				"lives": {
+					"type": "integer",
+					"minimum": 0
+				},
+				"lembasCount": {
+					"type": "integer",
+					"minimum": 0
+				},
+				"suspended": {
+					"type": "integer",
+					"minimum": -1
+				},
+				"reachedCheckpoints": {
+					"type": "integer",
+					"minimum": 0
+				},
+				"playedCards": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/CARD"
+					},
+					"maxItems": 5
+				},
+				"turnOrder": {
+					"type": "integer",
+					"minimum": -1,
+					"maximum": 5
+				}
+			},
+			"additionalProperties": false,
+			"required": [
+				"playerName",
+				"currentPosition",
+				"spawnPosition",
+				"direction",
+				"character",
+				"lives",
+				"lembasCount",
+				"suspended",
+				"reachedCheckpoints",
+				"playedCards",
+				"turnOrder"
+			]
+		},
+		"COORDINATE": {
+			"type": "array",
+			"items": {
+				"type": "integer",
+				"minimum": -1
+			},
+			"minItems": 2,
+			"maxItems": 2
+		},
+		"DIRECTION": {
+			"type": "string",
+			"enum": [
+				"NORTH",
+				"EAST",
+				"SOUTH",
+				"WEST"
+			]
+		},
+		"CHARACTER": {
+			"type": "string",
+			"enum": [
+				"FRODO",
+				"SAM",
+				"LEGOLAS",
+				"GIMLI",
+				"GANDALF",
+				"ARAGORN",
+				"GOLLUM",
+				"GALADRIEL",
+				"BOROMIR",
+				"BAUMBART",
+				"MERRY",
+				"PIPPIN",
+				"ARWEN"
+			]
+		},
+		"CARD": {
+			"type": "string",
+			"enum": [
+				"MOVE_1",
+				"MOVE_2",
+				"MOVE_3",
+				"MOVE_BACK",
+				"U_TURN",
+				"RIGHT_TURN",
+				"LEFT_TURN",
+				"AGAIN",
+				"LEMBAS",
+				"EMPTY"
+			]
+		},
+		"boardState": {
+			"type": "object",
+			"properties": {
+				"lembasFields": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"position": {
+								"$ref": "#/definitions/position"
+							},
+							"amount": {
+								"type": "number",
+								"minimum": 0
+							}
+						},
+						"required": [
+							"position",
+							"amount"
+						],
+						"additionalProperties": false
+					}
+				}
+			},
+			"required": [
+				"lembasFields"
+			],
+			"additionalProperties": false
+		}
+	}
+}

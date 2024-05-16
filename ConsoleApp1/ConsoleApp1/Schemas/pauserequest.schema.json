@@ -1,0 +1,28 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"title": "PAUSE_REQUEST",
+	"type": "object",
+	"required": [
+		"message",
+		"data"
+	],
+	"properties": {
+		"message": {
+			"type": "string",
+			"const": "PAUSE_REQUEST"
+		},
+		"data": {
+			"type": "object",
+			"required": [
+				"pause"
+			],
+			"properties": {
+				"pause": {
+					"type": "boolean"
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"additionalProperties": false
+}

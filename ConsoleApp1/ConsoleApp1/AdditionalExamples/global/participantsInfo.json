@@ -1,0 +1,15 @@
+{
+	"message": "PARTICIPANTS_INFO",
+	"data": {
+		"players": [
+			"Spieler1",
+			"Spieler2"
+		],
+		"spectators": [
+			"Spectator1"
+		],
+		"ais": [
+			"AI1"
+		]
+	}
+}

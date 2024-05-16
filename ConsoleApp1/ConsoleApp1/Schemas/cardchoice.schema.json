@@ -1,0 +1,45 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"title": "CARD_CHOICE",
+	"type": "object",
+	"properties": {
+		"message": {
+			"type": "string",
+			"const": "CARD_CHOICE"
+		},
+		"data": {
+			"type": "object",
+			"properties": {
+				"cards": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"MOVE_3",
+							"MOVE_2",
+							"MOVE_1",
+							"MOVE_BACK",
+							"U_TURN",
+							"RIGHT_TURN",
+							"LEFT_TURN",
+							"AGAIN",
+							"LEMBAS",
+							"EMPTY"
+						]
+					},
+					"minItems": 5,
+					"maxItems": 5
+				}
+			},
+			"required": [
+				"cards"
+			],
+			"additionalProperties": false
+		}
+	},
+	"required": [
+		"message",
+		"data"
+	],
+	"additionalProperties": false
+}
